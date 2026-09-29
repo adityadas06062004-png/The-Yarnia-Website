@@ -5,14 +5,31 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5,user-scalable=yes" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="apple-mobile-web-app-title" content="Petals & Ribbonss" />
-  <meta name="theme-color" content="#F7D5D9" />
-  <title>𝐏𝐞𝐭𝐚𝐥𝐬 & 𝐑𝐢𝐛𝐛𝐨𝐧𝐬𝐬 — Handcrafted Gifts</title>
+  <meta name="apple-mobile-web-app-title" content="The Yarniya" />
+  <meta name="theme-color" content="#7B5C8D" />
+  <title>The Yarniya — Handmade Crochet, Made With Love</title>
+  <meta name="description" content="The Yarniya is a handmade crochet studio — keychains, bag charms, hair accessories, hanging planters, and custom crochet bouquets, 100% handcrafted with love & care. All India delivery available." />
+  <link rel="canonical" href="https://the-yarnia.netlify.app/" />
+
+  <!-- Open Graph / social sharing -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="The Yarniya" />
+  <meta property="og:title" content="The Yarniya — Handmade Crochet, Made With Love" />
+  <meta property="og:description" content="Handmade crochet keychains, bag charms, hair accessories, hanging planters, and custom crochet bouquets. 100% handcrafted with love & care." />
+  <meta property="og:url" content="https://the-yarnia.netlify.app/" />
+  <meta property="og:image" content="assets/brand/logo-light.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="The Yarniya — Handmade Crochet, Made With Love" />
+  <meta name="twitter:description" content="Handmade crochet keychains, bag charms, hair accessories, hanging planters, and custom crochet bouquets." />
+  <meta name="twitter:image" content="assets/brand/logo-light.jpg" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com data:; img-src 'self' data: https:; connect-src 'self' https://wa.me https://api.whatsapp.com https://formspree.io;">
   <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="icon" href="assets/brand/favicon-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/brand/favicon-192.png">
   <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -20,18 +37,18 @@
 
   <nav>
     <div class="container">
-      <div class="brand">
-        <img src="Pearls and Petals.jpeg" alt="Petals & Ribbonss logo" class="logo-img"
-             data-light-src="Pearls and Petals.jpeg"
-             data-dark-src="Pearls and Ribbonss.jpeg">
+      <a class="brand" href="#top" aria-label="The Yarniya — home">
+        <img src="assets/brand/logo-light.jpg" alt="The Yarniya logo" class="logo-img"
+             data-light-src="assets/brand/logo-light.jpg"
+             data-dark-src="assets/brand/logo-dark.jpg">
         <div>
-          <div style="font-family:'Playfair Display',serif;font-weight:700">𝐏𝐞𝐭𝐚𝐥𝐬 & 𝐑𝐢𝐛𝐛𝐨𝐧𝐬𝐬</div>
-          <div style="font-size:12px;color:var(--muted)">Handmade bouquets & gifts</div>
+          <div class="brand-name">The Yarniya</div>
+          <div class="brand-sub">Handmade with love</div>
         </div>
-      </div>
+      </a>
       <div class="nav-links">
         <a href="#shop">Shop</a>
-        <a href="#builder">Build</a>
+        <a href="#builder">Bouquets</a>
         <a href="#contact">Contact</a>
         <select id="currencySelect" class="currency-select" aria-label="Select currency">
           <option value="INR" selected>₹ INR</option>
@@ -42,92 +59,67 @@
           <option value="JPY">¥ JPY</option>
         </select>
         <div class="theme-toggle" id="themeToggle">
-          <button data-theme="light"  title="Light">☀️</button>
-          <button data-theme="dark"   title="Dark">🌙</button>
-          <button data-theme="system" title="System">🖥️</button>
+          <button data-theme="light"  title="Light" aria-label="Light theme">☀️</button>
+          <button data-theme="dark"   title="Dark" aria-label="Dark theme">🌙</button>
+          <button data-theme="system" title="System" aria-label="Match system theme">🖥️</button>
         </div>
       </div>
     </div>
   </nav>
 
-  <main>
+  <main id="top">
 
     <!-- HERO -->
     <header class="hero">
       <div class="container hero-inner">
         <div>
-          <h1 class="hero-title">𝐏𝐞𝐭𝐚𝐥𝐬 & 𝐑𝐢𝐛𝐛𝐨𝐧𝐬𝐬</h1>
-          <p class="hero-sub">Handcrafted with love, delivered with care</p>
+          <p class="eyebrow">Handmade Crochet Studio</p>
+          <h1 class="hero-title">The Yarniya</h1>
+          <p class="hero-sub" id="heroTagline">Handmade with love, one stitch at a time.</p>
+          <p class="hero-note">100% handcrafted with love &amp; care · All India delivery available · COD not accepted</p>
           <div class="hero-cta">
-            <a class="btn" href="#shop">Shop Now</a>
-            <a class="btn secondary" href="#builder">Build Your Bouquet</a>
+            <a class="btn" href="#shop">Shop the Collection</a>
+            <a class="btn secondary" href="#builder">Build a Bouquet</a>
           </div>
         </div>
         <div>
-          <div class="card" style="padding:28px;display:flex;flex-direction:column;align-items:center;justify-content:center">
-            <div style="font-size:64px">💐</div>
-            <div style="margin-top:12px;font-weight:700">Featured: Spring Cottage Bouquet</div>
-            <div style="color:var(--muted);margin-top:8px">A cozy selection of seasonal blooms</div>
-            <div style="margin-top:12px"><a class="btn" href="#builder">Build Now</a></div>
+          <div class="card hero-card">
+            <img src="assets/products/rose-bag-charm-3.jpg" alt="Handmade crochet rose bag charm by The Yarniya" loading="lazy">
+            <div class="hero-card-cap">Every piece is crocheted by hand — no two are quite the same.</div>
           </div>
         </div>
       </div>
     </header>
 
-    <!-- ABOUT -->
+    <!-- ABOUT / STORY -->
     <section id="about" class="container fade-in">
-      <h2 class="section-title">About</h2>
-      <p style="max-width:760px;color:var(--muted)">𝐏𝐞𝐭𝐚𝐥𝐬 & 𝐑𝐢𝐛𝐛𝐨𝐧𝐬𝐬 is a small handmade gifts studio creating delicate bouquets, keepsake keychains, and curated gift sets. Founded with a love of cottage florals and thoughtful details, each item is handcrafted, wrapped, and sent with care — perfect for celebrations, thank-yous, and cozy moments.</p>
+      <h2 class="section-title">Handmade, with care</h2>
+      <p class="lead-text">The Yarniya is a handmade crochet studio. Every keychain, bag charm, hair accessory and bouquet is crocheted by hand, one stitch at a time — made to be given, kept, or carried every day.</p>
+      <div class="story-grid">
+        <div class="story-item"><span class="story-icon">🧶</span><div><strong>Handcrafted</strong><p>100% handmade with love &amp; care.</p></div></div>
+        <div class="story-item"><span class="story-icon">📦</span><div><strong>All India Delivery</strong><p>We ship across India.</p></div></div>
+        <div class="story-item"><span class="story-icon">💳</span><div><strong>Prepaid Orders</strong><p>Cash on Delivery is not accepted.</p></div></div>
+      </div>
     </section>
 
     <!-- SHOP -->
     <section id="shop" class="container fade-in">
       <h2 class="section-title">Shop</h2>
-      <div class="grid cards">
-        <article class="card">
-          <img alt="Bouquets">
-          <h3>Bouquets</h3>
-          <p style="color:var(--muted)">Hand-tied seasonal bouquets, wrapped in paper and ribbon.</p>
-          <div style="margin-top:10px" class="price" data-shop-price="299">From ₹299</div>
-        </article>
-        <article class="card">
-          <img alt="Keychains">
-          <h3>Keychains</h3>
-          <p style="color:var(--muted)">Tiny preserved florals and charms for everyday keepsakes.</p>
-          <div style="margin-top:10px" class="price" data-shop-price="99">From ₹99</div>
-        </article>
-        <article class="card">
-          <img alt="Gift Sets">
-          <h3>Gift Sets</h3>
-          <p style="color:var(--muted)">Curated sets for birthdays, anniversaries, and more.</p>
-          <div style="margin-top:10px" class="price" data-shop-price="399">From ₹399</div>
-        </article>
-      </div>
+      <p class="section-sub">Every piece below is a real product from The Yarniya, photographed as made.</p>
+      <div id="productGrid" class="product-grid" aria-live="polite"></div>
     </section>
 
     <!-- BOUQUET BUILDER -->
     <section id="builder" class="container fade-in">
-      <h2 class="section-title">Custom Bouquet Builder</h2>
+      <h2 class="section-title">Custom Crochet Bouquet Builder</h2>
       <div class="builder">
 
         <!-- LEFT: controls -->
         <div>
-          <p style="color:var(--muted)">Pick flowers, wrap, ribbon and add-ons — see a live bouquet preview with itemised pricing.</p>
+          <p style="color:var(--muted)">Choose your flowers and see the bouquet come together. Roses have set pricing below; other flowers can be added now with their price to be confirmed.</p>
 
-          <!-- Flower list -->
           <div id="flowerList" class="flower-list" aria-live="polite"></div>
-
-          <!-- Occasion presets -->
-          <div id="occasionWrap" class="builder-extras"></div>
-
-          <!-- Wrap picker -->
-          <div id="wrapPickerWrap" class="builder-extras"></div>
-
-          <!-- Ribbon picker -->
-          <div id="ribbonPickerWrap" class="builder-extras"></div>
-
-          <!-- Add-ons -->
-          <div id="addonWrap" class="builder-extras"></div>
+          <div id="builderNote" class="builder-note"></div>
         </div>
 
         <!-- RIGHT: preview + summary -->
@@ -138,31 +130,18 @@
               <div id="stemCount">0 stems</div>
             </div>
 
-            <!-- Chips -->
             <div style="margin-top:10px;display:flex;flex-wrap:wrap;gap:8px" id="previewChips"></div>
 
-            <!-- SVG bouquet preview -->
             <div class="visual-bouquet" id="visualBouquet" aria-label="Bouquet preview"></div>
 
-            <!-- Total -->
             <div style="margin-top:12px;display:flex;justify-content:space-between;align-items:center">
-              <div style="color:var(--muted)">Est. total (incl. delivery)</div>
+              <div style="color:var(--muted)">Estimated total</div>
               <div id="totalPrice" style="font-weight:800">₹0</div>
             </div>
+            <div id="tbcNote" class="tbc-note" style="display:none">Some selected flowers don't have a confirmed price yet — we'll share the exact total when you message us.</div>
 
-            <!-- Warnings -->
-            <div id="softWarning" style="margin-top:12px;display:none" class="warning">Your bouquet is getting full! Adding more may increase delivery time by 1–2 days.</div>
-            <div id="hardWarning" style="margin-top:12px;display:none" class="danger">Maximum bouquet size reached. For larger orders, please contact us directly.</div>
-
-            <!-- Delivery estimate -->
-            <div id="deliveryBox"></div>
-
-            <!-- Price breakdown -->
-            <div id="priceBreakdown"></div>
-
-            <!-- Actions -->
-            <div style="margin-top:12px;display:flex;gap:8px">
-              <button class="btn" id="requestBtn">📲 Order on WhatsApp</button>
+            <div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap">
+              <button class="btn" id="requestBtn">📲 Send this bouquet</button>
               <a class="btn secondary" href="#contact">Contact</a>
             </div>
           </div>
@@ -171,31 +150,31 @@
       </div>
     </section>
 
-    <!-- TESTIMONIALS -->
-    <section id="testimonials" class="container fade-in">
-      <h2 class="section-title">Testimonials</h2>
-      <div class="grid test-grid">
-        <div class="testimonial">"Absolutely gorgeous bouquet — arrived perfectly wrapped." — Emma</div>
-        <div class="testimonial">"Lovely customer service and thoughtful touches." — Maya</div>
-        <div class="testimonial">"My sister loved the keychain gift!" — Priya</div>
+    <!-- INSTAGRAM -->
+    <section id="instagram" class="container fade-in">
+      <div class="ig-card">
+        <div>
+          <h2 class="section-title" style="margin-bottom:6px">Follow The Yarniya</h2>
+          <p style="color:var(--muted);margin:0">See new pieces, colourways and behind-the-scenes on Instagram.</p>
+        </div>
+        <a class="btn" href="https://www.instagram.com/the_yarniya" target="_blank" rel="noopener noreferrer">Follow @the_yarniya</a>
       </div>
     </section>
 
     <!-- CONTACT -->
     <section id="contact" class="container fade-in">
-      <h2 class="section-title">Contact & Order</h2>
-      <!-- Formspree: replace mjgqpbyr with your form ID if it changes -->
+      <h2 class="section-title">Contact &amp; Order</h2>
+      <p class="section-sub" id="orderChannelNote">Order or ask a question through Instagram DM, or send the form below.</p>
       <form id="contactForm" action="https://formspree.io/f/mjgqpbyr" method="POST">
-        <input type="hidden" name="_subject" value="New enquiry — Petals & Ribbonss 🌸">
+        <input type="hidden" name="_subject" value="New enquiry — The Yarniya 🧶">
         <input type="hidden" name="_replyto" id="replyToField">
         <input type="text"  name="name"    placeholder="Your name"                    required>
         <input type="email" name="email"   placeholder="Email (so we can reply)"      required>
-        <input type="tel"   name="phone"   placeholder="WhatsApp number (optional)">
-        <textarea name="message" rows="4"  placeholder="Message / order details"></textarea>
+        <input type="tel"   name="phone"   placeholder="Contact number (optional)">
+        <textarea name="message" rows="4"  placeholder="Message / order details" maxlength="2000"></textarea>
         <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
           <button class="btn" type="submit" id="submitBtn">📧 Send Message</button>
-          <a class="btn secondary" href="https://wa.me/918637505579" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-          <a class="btn secondary" href="https://www.instagram.com/petals.and.ribbonss?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a class="btn secondary" href="https://www.instagram.com/the_yarniya" target="_blank" rel="noopener noreferrer">Instagram</a>
         </div>
       </form>
     </section>
@@ -204,24 +183,26 @@
     <footer class="container">
       <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px">
         <div style="display:flex;align-items:center;gap:12px">
-          <img src="Pearls and Petals.jpeg" alt="Petals & Ribbonss logo" class="logo-img"
-               data-light-src="Pearls and Petals.jpeg"
-               data-dark-src="Pearls and Ribbonss.jpeg">
+          <img src="assets/brand/logo-light.jpg" alt="The Yarniya logo" class="logo-img"
+               data-light-src="assets/brand/logo-light.jpg"
+               data-dark-src="assets/brand/logo-dark.jpg">
           <div>
-            <div style="font-weight:700">𝐏𝐞𝐭𝐚𝐥𝐬 & 𝐑𝐢𝐛𝐛𝐨𝐧𝐬𝐬</div>
-            <div style="color:var(--muted);font-size:13px">© <span id="year"></span> 𝐏𝐞𝐭𝐚𝐥𝐬 & 𝐑𝐢𝐛𝐛𝐨𝐧𝐬𝐬</div>
+            <div style="font-weight:700">The Yarniya</div>
+            <div style="color:var(--muted);font-size:13px">© <span id="year"></span> The Yarniya · All India delivery · COD not accepted</div>
           </div>
         </div>
         <div style="display:flex;gap:12px;align-items:center">
           <a href="#shop">Shop</a>
-          <a href="#builder">Build</a>
+          <a href="#builder">Bouquets</a>
           <a href="#contact">Contact</a>
+          <a href="https://www.instagram.com/the_yarniya" target="_blank" rel="noopener noreferrer">Instagram</a>
         </div>
       </div>
     </footer>
 
   </main>
 
+  <script src="data.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

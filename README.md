@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="Pearls and Petals.jpeg" alt="Petals & Ribbonss Logo" width="160" style="border-radius:50%"/>
+<img src="Pearls and Petals.jpeg" alt="The Yarniya Logo" width="160" style="border-radius:50%"/>
 
-# 🌸 Petals & Ribbonss
+# 🌸 The Yarniya
 
 ### *Handcrafted bouquets & gifts — made with love*
 
@@ -16,7 +16,7 @@
 
 ## 💐 About
 
-**Petals & Ribbonss** is a handmade gifting studio crafting beautiful, custom bouquets and keepsake gifts — each one wrapped with care and delivered with love.
+**The Yarniya** is a handmade gifting studio crafting beautiful, custom bouquets and keepsake gifts — each one wrapped with care and delivered with love.
 
 Whether it's a birthday surprise, an anniversary gesture, a marriage proposal, or just a *because I love you* moment — every bouquet is built by hand, personalised to your taste, and sent directly to your door.
 
@@ -70,7 +70,7 @@ Or fill in the contact form at [petalsandribbonss.netlify.app/#contact](https://
 
 ## 💻 About This Repository
 
-This is the source code for the Petals & Ribbonss website — a fully custom storefront built with pure **HTML, CSS, and JavaScript**. No frameworks, no build step, just clean handcrafted code (much like the bouquets themselves).
+This is the source code for the The Yarniya website — a fully custom storefront built with pure **HTML, CSS, and JavaScript**. No frameworks, no build step, just clean handcrafted code (much like the bouquets themselves).
 
 ### Features
 - 💐 Interactive SVG bouquet builder with Fibonacci spiral layout
@@ -126,8 +126,8 @@ npx serve .
 
 <div align="center">
 
-Made with 🌸 by **Petals & Ribbonss**
+Made with 🌸 by **The Yarniya**
 
-*© 2026 Petals & Ribbonss — All rights reserved*
+*© 2026 The Yarniya — All rights reserved*
 
 </div>

@@ -1,23 +1,15 @@
 {
-  "name": "Petals & Ribbonss",
-  "short_name": "Petals & Ribbonss",
-  "description": "Handcrafted bouquets & gifts — custom bouquet builder",
+  "name": "The Yarniya",
+  "short_name": "The Yarniya",
+  "description": "Handmade crochet keychains, bag charms, hair accessories, and custom bouquets — 100% handcrafted with love & care.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#FFF9F2",
-  "theme_color": "#F7D5D9",
+  "background_color": "#FBF7F2",
+  "theme_color": "#6B4C7A",
   "orientation": "portrait",
   "icons": [
-    {
-      "src": "Pearls and Petals.jpeg",
-      "sizes": "192x192",
-      "type": "image/jpeg"
-    },
-    {
-      "src": "Pearls and Petals.jpeg",
-      "sizes": "512x512",
-      "type": "image/jpeg"
-    }
+    { "src": "assets/brand/favicon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/brand/favicon-512.png", "sizes": "512x512", "type": "image/png" }
   ],
   "categories": ["shopping", "lifestyle"]
 }
