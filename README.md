@@ -1,60 +1,52 @@
 <div align="center">
 
-<img src="Pearls and Petals.jpeg" alt="The Yarniya Logo" width="160" style="border-radius:50%"/>
+<img src="assets/brand/logo-light.jpg" alt="The Yarniya Logo" width="160" style="border-radius:50%"/>
 
-# 🌸 The Yarniya
+# 🧶 The Yarniya
 
-### *Handcrafted bouquets & gifts — made with love*
+### *Handmade crochet, made with love*
 
-[![Live Website](https://img.shields.io/badge/🌐_Live_Website-petalsandribbonss.netlify.app-F7D5D9?style=for-the-badge&labelColor=2b2b2b)](https://petalsandribbonss.netlify.app/)
+[![Live Website](https://img.shields.io/badge/🌐_Live_Website-the--yarnia.netlify.app-6B4C7A?style=for-the-badge&labelColor=2b2230)](https://the-yarnia.netlify.app/)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-Order_Now-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/918637505579)
-[![Instagram](https://img.shields.io/badge/Instagram-@petals.and.ribbonss-E1306C?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/petals.and.ribbonss)
+[![Instagram](https://img.shields.io/badge/Instagram-@the__yarniya-E1306C?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/the_yarniya)
 
 </div>
 
 ---
 
-## 💐 About
+## 🧶 About
 
-**The Yarniya** is a handmade gifting studio crafting beautiful, custom bouquets and keepsake gifts — each one wrapped with care and delivered with love.
+**The Yarniya** is a handmade crochet studio — keychains, bag charms, hair accessories, hanging planters, and custom crochet bouquets, each one crocheted by hand, one stitch at a time.
 
-Whether it's a birthday surprise, an anniversary gesture, a marriage proposal, or just a *because I love you* moment — every bouquet is built by hand, personalised to your taste, and sent directly to your door.
+100% handcrafted with love & care. Made to be given, kept, or carried every day.
 
-> *"Not just flowers — a feeling, wrapped in ribbon."*
+> *"Handmade with love, one stitch at a time."*
 
 ---
 
 ## ✨ What We Offer
 
-| 💐 Bouquets | 🔑 Keychains | 🎁 Gift Sets |
+| 🔑 Keychains | 🎀 Hair Accessories | 🌹 Bag Charms |
 |:---:|:---:|:---:|
-| Hand-tied seasonal arrangements wrapped in premium paper | Tiny preserved florals & charms for everyday carry | Curated sets for every occasion |
-| From **₹299** | From **₹99** | From **₹399** |
+| Swiss roll, sunflower, daisy & mesh bow keychains | Gajra, scrunchies, bandanas & hair bands | Rose, tulip & lily-of-the-valley charms |
+| From **₹79** | From **₹149** | From **₹149** |
 
-### 🌹 Available Flowers
-Roses · Tulips · Sunflowers · Lilies · Baby's Breath · Peonies · Lavender
+### 🧺 Also available
+Crochet Hanging Lavender Pot · Custom Crochet Bouquets (Rose, Lily, Tulip, Sunflower, Daisy)
 
-### 🎀 Wrapping Options
-Blush Pink · White · Kraft Paper · Lavender · Black
-
-### 🎊 Occasions We Love
-Birthday · Anniversary · Proposal · Valentine's Day · Mother's Day · Graduation · Just Because
-
-### 🎁 Premium Add-ons
-Greeting Card · Chocolates · Ferrero Rocher · Teddy Bear · Fairy Lights · Polaroid Photo
+### 🎊 Delivery
+All India Delivery Available · Cash on Delivery is **not** accepted (prepaid orders only)
 
 ---
 
-## 🛠️ Build Your Own Bouquet
+## 🌸 Build a Custom Bouquet
 
-Visit **[petalsandribbonss.netlify.app](https://petalsandribbonss.netlify.app/)** and use our live **Custom Bouquet Builder**:
+Visit **[the-yarnia.netlify.app](https://the-yarnia.netlify.app/)** and use the live **Bouquet Builder**:
 
-1. 🌸 Pick your flowers and quantities
-2. 🎀 Choose your wrapping paper and ribbon colour
-3. 🎂 Select an occasion preset or add premium extras
-4. 📋 See a **live SVG bouquet preview** update in real time
-5. 💰 Get an **itemised price breakdown** instantly
-6. 📲 Send your order directly via **WhatsApp** — done!
+1. 🌹 Pick your flowers and quantities
+2. 📋 Watch the live crochet-bouquet preview update
+3. 💰 See the price as you go (Rose is tier-priced; other flowers show "price to be confirmed" until finalised)
+4. 📲 Send the bouquet straight to us on WhatsApp or Instagram
 
 ---
 
@@ -64,23 +56,23 @@ The fastest way to order:
 
 **[👉 Open WhatsApp → +91 86375 05579](https://wa.me/918637505579)**
 
-Or fill in the contact form at [petalsandribbonss.netlify.app/#contact](https://petalsandribbonss.netlify.app/#contact)
+Or message us on **[Instagram @the_yarniya](https://www.instagram.com/the_yarniya)**, or fill in the contact form at [the-yarnia.netlify.app/#contact](https://the-yarnia.netlify.app/#contact)
 
 ---
 
 ## 💻 About This Repository
 
-This is the source code for the The Yarniya website — a fully custom storefront built with pure **HTML, CSS, and JavaScript**. No frameworks, no build step, just clean handcrafted code (much like the bouquets themselves).
+This is the source code for The Yarniya website — a fully custom storefront built with pure **HTML, CSS, and JavaScript**. No frameworks, no build step.
 
 ### Features
-- 💐 Interactive SVG bouquet builder with Fibonacci spiral layout
-- 🎀 Live wrap, ribbon, and add-on customisation
-- 💰 Multi-currency support (₹ INR default + USD, EUR, GBP, AED, JPY)
-- 📋 Itemised live pricing with delivery estimate
-- 📲 WhatsApp ordering with pre-filled message
+- 🛍️ Centralized product catalog (`data.js`) — real photos, real prices, nothing invented
+- 🌹 Interactive SVG bouquet builder with Fibonacci-spiral layout and tier-priced roses
+- 🖼️ Multi-photo product galleries with thumbnail switching
+- 💰 Multi-currency display (₹ INR default + USD, EUR, GBP, AED, JPY)
+- 📲 WhatsApp ordering with a pre-filled order summary
 - 📧 Contact form via Formspree
-- 🌙 Dark / Light / System theme
-- 📱 Fully mobile responsive
+- 🌙 Light / Dark / System theme
+- 📱 Fully mobile responsive, accessible, and `prefers-reduced-motion`-aware
 
 ### Tech Stack
 ```
@@ -90,23 +82,28 @@ Hosted on Netlify · Contact forms via Formspree
 
 ### Project Structure
 ```
-Petals-and-Ribbonss-Website/
+The-Yarniya-Website/
 ├── index.html          ← Main page
-├── script.js           ← Bouquet builder + all interactivity
+├── data.js             ← All product/brand data — edit here to add products or change prices
+├── script.js           ← Rendering + bouquet builder logic
 ├── style.css           ← Styles + dark mode + responsive
 ├── manifest.json       ← PWA manifest
-├── robots.txt          ← SEO
-├── sitemap.xml         ← SEO
-├── nginx.conf.example  ← Production server config
-├── DEPLOY.md           ← Deployment guide
-├── SECURITY.md         ← Security checklist
-└── LICENSE             ← MIT
+├── assets/
+│   ├── brand/           ← Logos, favicon
+│   └── products/         ← Product photos
+├── netlify.toml         ← Security headers for Netlify
+├── LICENSE
+├── README.md
+└── SECURITY.md
 ```
+
+### Adding a product
+Open `data.js` and add an entry to the `PRODUCTS` array with a name, category, price (or `null` if not finalized), and an `images` array. No other file needs to change.
 
 ### Run Locally
 ```bash
-git clone https://github.com/adityadas06062004-png/Petals-and-Ribbonss-Website.git
-cd Petals-and-Ribbonss-Website
+git clone https://github.com/adityadas06062004-png/The-Yarniya-Website.git
+cd The-Yarniya-Website
 open index.html
 # or
 npx serve .
@@ -118,15 +115,15 @@ npx serve .
 
 | Platform | Link |
 |---|---|
-| 🌐 Website | [petalsandribbonss.netlify.app](https://petalsandribbonss.netlify.app/) |
-| 📸 Instagram | [@petals.and.ribbonss](https://www.instagram.com/petals.and.ribbonss) |
+| 🌐 Website | [the-yarnia.netlify.app](https://the-yarnia.netlify.app/) |
+| 📸 Instagram | [@the_yarniya](https://www.instagram.com/the_yarniya) |
 | 💬 WhatsApp | [+91 86375 05579](https://wa.me/918637505579) |
 
 ---
 
 <div align="center">
 
-Made with 🌸 by **The Yarniya**
+Made with 🧶 by **The Yarniya**
 
 *© 2026 The Yarniya — All rights reserved*
 

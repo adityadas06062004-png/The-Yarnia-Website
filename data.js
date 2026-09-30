@@ -10,10 +10,7 @@ const BRAND = {
   name: "The Yarniya",
   tagline: "Handmade with love, one stitch at a time.",
   instagram: "https://www.instagram.com/the_yarniya",
-  // TODO: replace with The Yarniya's own WhatsApp business number (digits only,
-  // country code first, e.g. "91XXXXXXXXXX"). Until then, WhatsApp ordering
-  // is disabled and the site points people to Instagram instead.
-  whatsapp: "",
+  whatsapp: "918637505579",
   delivery: "All India Delivery Available",
   cod: "Cash on Delivery is not accepted",
   currency: { code: "INR", symbol: "₹" },
@@ -128,7 +125,7 @@ const PRODUCTS = [
     name: "Lily of the Valley Bag Charms",
     category: "bag-charms",
     price: 199,
-    images: ["assets/products/lily-of-valley-charm-1.jpg", "assets/products/lily-of-valley-charm-2.jpg"],
+    images: ["assets/products/lily-of-valley-charm-1.jpg"],
     description: "A cluster of tiny crocheted lily-of-the-valley blooms.",
     available: true,
   },
@@ -138,16 +135,18 @@ const PRODUCTS = [
     category: "bag-charms",
     price: 199,
     images: [
+      "assets/products/rose-bag-charm-9-pink-pair.jpg",
       "assets/products/rose-bag-charm-1.jpg",
       "assets/products/rose-bag-charm-2.jpg",
       "assets/products/rose-bag-charm-3.jpg",
       "assets/products/rose-bag-charm-4.jpg",
       "assets/products/rose-bag-charm-5.jpg",
-      "assets/products/rose-bag-charm-6.jpg",
       "assets/products/rose-bag-charm-7.jpg",
       "assets/products/rose-bag-charm-8.jpg",
     ],
-    description: "A miniature bouquet of crocheted roses in a basket charm.",
+    // Base colour ₹199. Blue colourway confirmed at ₹349 — flagged for the
+    // client to double check, since it differs from the flat rose price.
+    description: "A miniature bouquet of crocheted roses in a basket charm. Blue colourway: ₹349.",
     available: true,
   },
   // Coasters: intentionally not added yet — client said to leave for now.
